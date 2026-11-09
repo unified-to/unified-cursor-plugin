@@ -48,7 +48,7 @@ A workspace API key grants access to every connection in the account. Keep it ou
 
 ## Regions
 
-This plugin points at the US endpoint. Each region only accepts credentials issued in that region.
+This plugin connects to the US region. Each region's server only sees that region's workspaces, so an EU or AU workspace can't sign in through it.
 
 | Region | MCP URL |
 | --- | --- |
@@ -56,7 +56,20 @@ This plugin points at the US endpoint. Each region only accepts credentials issu
 | EU | `https://mcp-api-eu.unified.to/mcp` |
 | AU | `https://api-au.unified.to/mcp` |
 
-If your workspace is in the EU or AU region, change the `url` in `mcp.json` to that region's URL after install.
+If your workspace is in the EU or AU region, skip the plugin and add your region's server to `~/.cursor/mcp.json` (or a project's `.cursor/mcp.json`). Sign-in works the same way, with no API key:
+
+```json
+{
+  "mcpServers": {
+    "unified-core": {
+      "type": "http",
+      "url": "https://mcp-api-eu.unified.to/mcp"
+    }
+  }
+}
+```
+
+Use `https://api-au.unified.to/mcp` for AU. The [MCP docs](https://docs.unified.to/mcp/core) list the regional hosts.
 
 ## What the agent can do
 
