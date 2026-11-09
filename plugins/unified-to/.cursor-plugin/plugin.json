@@ -1,0 +1,38 @@
+{
+  "name": "unified-to",
+  "displayName": "Unified.to",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Manage your Unified.to workspace from Cursor: browse integrations, create and inspect customer connections, debug API calls and integration issues, configure webhooks and environments, and search the Unified docs.",
+  "author": {
+    "name": "Unified.to"
+  },
+  "publisher": "Unified.to",
+  "homepage": "https://docs.unified.to/mcp/core",
+  "repository": "https://github.com/unified-to/unified-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "unified",
+    "unified.to",
+    "unified api",
+    "integrations",
+    "connections",
+    "webhooks",
+    "crm",
+    "hris",
+    "ats",
+    "accounting",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "unified",
+    "integrations",
+    "api",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
