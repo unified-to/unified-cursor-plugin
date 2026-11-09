@@ -1,0 +1,22 @@
+{
+  "name": "unified-to",
+  "owner": {
+    "name": "Unified.to"
+  },
+  "metadata": {
+    "description": "Official Unified.to plugins for Cursor: manage your Unified.to workspace, and design data models with UnifiedModels.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "unified-to",
+      "source": "plugins/unified-to",
+      "description": "Manage your Unified.to workspace: integrations, connections, API call logs, issues, webhooks, environments, and docs search."
+    },
+    {
+      "name": "unifiedmodels",
+      "source": "plugins/unifiedmodels",
+      "description": "Define data models once in UnifiedModels and generate them in 31 languages and schema formats, including TypeScript, Go, Python, OpenAPI, Prisma and Zod."
+    }
+  ]
+}
