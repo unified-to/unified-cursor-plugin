@@ -54,7 +54,7 @@ This plugin connects to the US region. Each region's server only sees that regio
 | --- | --- |
 | US | `https://mcp-api.unified.to/mcp` |
 | EU | `https://mcp-api-eu.unified.to/mcp` |
-| AU | `https://api-au.unified.to/mcp` |
+| AU | `https://mcp-api-au.unified.to/mcp` |
 
 If your workspace is in the EU or AU region, skip the plugin and add your region's server to `~/.cursor/mcp.json` (or a project's `.cursor/mcp.json`). Sign-in works the same way, with no API key:
 
@@ -69,7 +69,7 @@ If your workspace is in the EU or AU region, skip the plugin and add your region
 }
 ```
 
-Use `https://api-au.unified.to/mcp` for AU. The [MCP docs](https://docs.unified.to/mcp/core) list the regional hosts.
+Use `https://mcp-api-au.unified.to/mcp` for AU. The [MCP docs](https://docs.unified.to/mcp/core) list the regional hosts.
 
 ## What the agent can do
 
