@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "unified": {
-      "type": "http",
-      "url": "https://mcp-api.unified.to/mcp"
-    }
-  }
-}
