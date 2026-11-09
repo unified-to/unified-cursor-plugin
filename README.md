@@ -4,7 +4,7 @@ Official [Cursor](https://cursor.com) plugins from [Unified.to](https://unified.
 
 | Plugin | What it does | MCP server |
 | --- | --- | --- |
-| [**Unified.to**](plugins/unified-to) (`unified-to`) | Manage your Unified.to workspace: browse integrations, create and inspect connections, debug API calls and issues, configure webhooks and environments, and search the docs. | `https://mcp-api.unified.to/mcp` |
+| [**Unified.to**](plugins/unified-to) (`unified-to`) | Manage your Unified.to workspace: browse integrations, create and inspect connections, debug API calls and issues, configure webhooks and environments, and search the docs. | `https://mcp-api.unified.to/mcp` (US region; for EU and AU see [Regions](plugins/unified-to#regions)) |
 | [**UnifiedModels**](plugins/unifiedmodels) (`unifiedmodels`) | Define data models once and generate them in 31 languages and schema formats, import existing schemas, and push generated code to GitHub. | `https://api.unifiedmodels.com/mcp` |
 
 ## Install
